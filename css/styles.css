@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #fbfbfb;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+ 
+}
+
+.cabecera{
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;  
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+    height: 90px;
+  
+}
+header{
+   
+  
+    margin: 0;
+    width: 100%;
+    position: fixed;
+   
+
+  
+} 
+
+
+.foto-principal{
+    justify-content: center;
+    padding: 20px 0;
+    display: flex;
+    
+
+}
+/* .-----------------------------------------IMAGEN PRINCIPAL------------- */
+.img-foto{
+
+width: 400px;
+
+border-radius: 50%;
+
+margin-top: 100px;
+
+margin-left: 40px;
+
+margin-right: 40px;
+
+display: flex;
+
+}
+/* ----------------------------------------- ESTILOS GENERALES A SECTION--- */
+
+.principal{
+    margin: 30px;
+}
+section{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+ 
+   
+   
+    
+}
+/* ------------------------------------------------- SECTION INICIO----- */
+.inicio{
+   
+   width: 100%;
+   padding: 10px 30px 150px 30px;
+   
+   
+   
+}
+
+/* ------------------------------------------------- SECTION CONTACTO----- */
+.contacto{
+    background-color: rgba( 175, 89, 158, 0.3);
+    border-radius: 10PX;
+    color: #0f0f0f;
+    padding: 20px;
+    margin: 20px;
+   
+    }
+
+
+/*  estilos ---------------------------------------------------------h1/h2 */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    
+}
+h3{
+     font-size: 18px;
+     text-align: center;
+     color: #fbfbfb;
+}
+
+/* --------------------------------------------------------------------LISTAS */
+ul {
+    list-style: none;
+}
+
+li :hover{
+    background-color: rgba( 175, 89, 158, 0.3);
+   
+    
+}  
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ------------------------------------------------------------------MAIN */
+main {
+    max-width: 1200px;
+    min-width: 380px;
+    margin: auto;
+}
+
+/*----------------------------------------------------- Botoom----------- */
+.boton{
+    display: block;
+    width: 200px;
+   
+    background-color:#af599e;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 20px ;
+    color: #fbfbfb;
+    font-size: 20px;
+    border-color: transparent;
+
+}
+
+
+/* ----------------------------------------------------------------PARRAFO */
+p {
+
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* div para iconos en section ICONOS------------------------------ */
+.iconos{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    flex-direction: row;
+    border-radius: none;
+  
+}
+
+ .img-mail {
+    width: 50px;
+    height: 50px;
+  
+}
+
+ .img-github{
+    width: 50px;
+    height: 50px;
+
+}
+.img-linkedin{
+    width: 50px;
+    height: 50px;
+   
+    
+}  
+
+/* pie de pagina---------------------------------------- */
+footer{
+    background-color: #af599e;
+    text-align: center;
+    color: #fbfbfb;
+    height: 90px;
+    width: 100%;
+    padding: 40px 30px;
+
+}
