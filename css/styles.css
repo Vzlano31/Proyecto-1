@@ -75,6 +75,7 @@ section{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+  min-height:100px;
  
    
    
@@ -175,6 +176,7 @@ p {
     align-items:center ;
     flex-direction: row;
     border-radius: none;
+    padding: 30px 0 100px 0;
   
 }
 
@@ -204,5 +206,7 @@ footer{
     height: 90px;
     width: 100%;
     padding: 40px 30px;
+    max-width: 1200px;
+    min-width: 380px;
 
 }
