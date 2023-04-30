@@ -76,7 +76,7 @@ section{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-     min-height: 100px;
+    min-height: 100px;
  
    
    
@@ -207,5 +207,7 @@ footer{
     height: 90px;
     width: 100%;
     padding: 40px 30px;
+    max-width: 1200px;
+    min-width: 380px;
 
 }
